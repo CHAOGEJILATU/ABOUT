@@ -21,14 +21,15 @@
   <a href="https://viaf.org/en/viaf/7880176726014124980005"><strong>VIAF</strong></a>
 </p>
 
+---
 
-## Overview
+## 🌍 Overview
 I am **CHAOGEJILATU**, an environmental scientist working at the intersection of **climate change, agriculture, remote sensing, and geospatial data analysis**.  
 My work focuses on quantitatively linking environmental change to land systems and agricultural production using satellite observations and statistical modeling.
 
 ---
 
-## Research Focus
+## 🛰️ Research Focus
 - Climate change impacts on agriculture and food security  
 - Remote sensing (Landsat / MODIS) and environmental monitoring  
 - Crop modeling and spatiotemporal data analysis  
@@ -36,18 +37,18 @@ My work focuses on quantitatively linking environmental change to land systems a
 
 ---
 
-## Official Web Presence
+## 🔗 Official Web Presence
 - **Official website:** https://www.chaogejilatu.com  
 - **Blog (research notes & updates):** https://chaogejilatu.wordpress.com  
 
 ---
 
-## Authoritative Identifiers
+## 🆔 Authoritative Identifiers
 - **Wikidata:** https://www.wikidata.org/wiki/Q135964663  
 - **VIAF:** https://viaf.org/en/viaf/7880176726014124980005  
 
 ---
 
-## Contact
+## ✉️ Contact
 For collaboration or professional inquiries, please use the contact form on my official website:  
 https://www.chaogejilatu.com

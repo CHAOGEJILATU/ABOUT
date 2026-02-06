@@ -8,20 +8,19 @@
   Climate Change × Agriculture × Remote Sensing × Geospatial Data Analysis
 </p>
 <p align="center">
-  Based in Tsukuba, Japan · Affiliated with NARO
+  Based in Tsukuba, Japan · NARO
 </p>
 
 <p align="center">
-  <a href="https://www.chaogejilatu.com"><strong>Official Website</strong></a>
+  <a href="https://www.chaogejilatu.com"><strong>HOME</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://chaogejilatu.wordpress.com"><strong>Blog</strong></a>
+  <a href="https://chaogejilatu.wordpress.com"><strong>BLOG</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://www.wikidata.org/wiki/Q135964663"><strong>Wikidata</strong></a>
+  <a href="https://www.wikidata.org/wiki/Q135964663"><strong>WIKI</strong></a>
   &nbsp;·&nbsp;
   <a href="https://viaf.org/en/viaf/7880176726014124980005"><strong>VIAF</strong></a>
 </p>
 
----
 
 ## Overview
 I am **CHAOGEJILATU**, an environmental scientist working at the intersection of **climate change, agriculture, remote sensing, and geospatial data analysis**.  

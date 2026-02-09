@@ -1,54 +1,28 @@
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/0/0.png" width="1" height="1" alt="">
-</p>
+# CHAOGEJILATU
 
-<h1 align="center">CHAOGEJILATU</h1>
-<p align="center"><strong>Environmental Scientist</strong></p>
-<p align="center">
-  Climate Change × Agriculture × Remote Sensing × Geospatial Data Analysis
-</p>
-<p align="center">
-  Based in Tsukuba, Japan · NARO
-</p>
+Environmental scientist focused on climate, land systems, and data-driven environmental analysis.
 
-<p align="center">
-  <a href="https://www.chaogejilatu.com"><strong>HOME</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://chaogejilatu.wordpress.com"><strong>BLOG</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://www.wikidata.org/wiki/Q135964663"><strong>WIKI</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://viaf.org/en/viaf/7880176726014124980005"><strong>VIAF</strong></a>
-</p>
+## About
+CHAOGEJILATU is an environmental scientist working on climate change, land systems, agriculture, remote sensing, and geospatial/statistical analysis. Current affiliation: National Agriculture and Food Research Organization (NARO), Tsukuba, Japan.
 
----
+## Research focus
+- Climate change impacts on agriculture and food security
+- Remote sensing (e.g., Landsat, MODIS) and environmental monitoring
+- Land use/land cover change and land-system dynamics
+- Geospatial and statistical modeling for environmental assessment
 
-## 🌍 Overview
-I am **CHAOGEJILATU**, an environmental scientist working at the intersection of **climate change, agriculture, remote sensing, and geospatial data analysis**.  
-My work focuses on quantitatively linking environmental change to land systems and agricultural production using satellite observations and statistical modeling.
+## Websites
+- Official site: www.chaogejilatu.com
+- Blog: chaogejilatu.wordpress.com
 
----
+## Authoritative identifiers
+- Wikidata: https://www.wikidata.org/wiki/Q135964663
+- VIAF: https://viaf.org/en/viaf/7880176726014124980005
 
-## 🛰️ Research Focus
-- Climate change impacts on agriculture and food security  
-- Remote sensing (Landsat / MODIS) and environmental monitoring  
-- Crop modeling and spatiotemporal data analysis  
-- Land use / land cover change and sustainability assessment  
+## Contact
+For professional inquiries, please use the contact details on the official website.
 
----
-
-## 🔗 Official Web Presence
-- **Official website:** https://www.chaogejilatu.com  
-- **Blog (research notes & updates):** https://chaogejilatu.wordpress.com  
-
----
-
-## 🆔 Authoritative Identifiers
-- **Wikidata:** https://www.wikidata.org/wiki/Q135964663  
-- **VIAF:** https://viaf.org/en/viaf/7880176726014124980005  
-
----
-
-## ✉️ Contact
-For collaboration or professional inquiries, please use the contact form on my official website:  
-https://www.chaogejilatu.com
+## Repository purpose
+- Provide a public-facing About page for CHAOGEJILATU
+- Share concise, verifiable profile information and key links
+- Serve as a stable reference for external profiles and listings

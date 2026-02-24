@@ -6,19 +6,39 @@
   <b>REMOTE SENSING</b> · <b>GEOSPATIAL & STATISTICAL ANALYSIS</b> · <b>REPRODUCIBLE WORKFLOWS</b>
 </p>
 
+<!-- ROW 1: OFFICIAL LINKS (BIG, BALANCED) -->
 <p align="center">
-  <a href="https://www.chaogejilatu.com"><img alt="OFFICIAL SITE" src="https://img.shields.io/badge/OFFICIAL%20SITE-WWW.CHAOGEJILATU.COM-000000?style=for-the-badge"></a>
-  <a href="https://chaogejilatu.wordpress.com"><img alt="BLOG" src="https://img.shields.io/badge/BLOG-CHAOGEJILATU.WORDPRESS.COM-111111?style=for-the-badge"></a>
-  <a href="https://www.wikidata.org/wiki/Q135964663"><img alt="WIKIDATA Q135964663" src="https://img.shields.io/badge/WIKIDATA-Q135964663-222222?style=for-the-badge"></a>
-  <a href="https://viaf.org/en/viaf/7880176726014124980005"><img alt="VIAF 7880176726014124980005" src="https://img.shields.io/badge/VIAF-7880176726014124980005-333333?style=for-the-badge"></a>
+  <a href="https://www.chaogejilatu.com">
+    <img alt="OFFICIAL SITE" src="https://img.shields.io/badge/OFFICIAL%20SITE-WWW.CHAOGEJILATU.COM-111827?style=for-the-badge&labelColor=0F172A">
+  </a>
+  <a href="https://chaogejilatu.wordpress.com">
+    <img alt="BLOG" src="https://img.shields.io/badge/BLOG-CHAOGEJILATU.WORDPRESS.COM-0F766E?style=for-the-badge&labelColor=064E3B">
+  </a>
+  <a href="https://www.wikidata.org/wiki/Q135964663">
+    <img alt="WIKIDATA" src="https://img.shields.io/badge/WIKIDATA-Q135964663-1D4ED8?style=for-the-badge&labelColor=1E3A8A">
+  </a>
+  <a href="https://viaf.org/en/viaf/7880176726014124980005">
+    <img alt="VIAF" src="https://img.shields.io/badge/VIAF-7880176726014124980005-7C3AED?style=for-the-badge&labelColor=5B21B6">
+  </a>
 </p>
 
+<!-- ROW 2: IDENTIFIERS (SMALL, COLOR-CODED PER ITEM) -->
 <p align="center">
-  <a href="https://orcid.org/0000-0002-8544-3868"><img alt="ORCID 0000-0002-8544-3868" src="https://img.shields.io/badge/ORCID-0000--0002--8544--3868-444444?style=flat-square"></a>
-  <a href="https://isni.org/isni/0000000528391004"><img alt="ISNI 0000000528391004" src="https://img.shields.io/badge/ISNI-0000000528391004-444444?style=flat-square"></a>
-  <a href="http://id.loc.gov/authorities/names/no2025114226"><img alt="LCNAF NO2025114226" src="https://img.shields.io/badge/LCNAF-NO2025114226-444444?style=flat-square"></a>
-  <a href="https://id.worldcat.org/fast/02066349"><img alt="FAST 02066349" src="https://img.shields.io/badge/FAST-02066349-444444?style=flat-square"></a>
-  <a href="https://d-nb.info/gnd/1379562554"><img alt="GND 1379562554" src="https://img.shields.io/badge/GND-1379562554-444444?style=flat-square"></a>
+  <a href="https://orcid.org/0000-0002-8544-3868">
+    <img alt="ORCID" src="https://img.shields.io/badge/ORCID-0000--0002--8544--3868-16A34A?style=flat-square&labelColor=14532D">
+  </a>
+  <a href="https://isni.org/isni/0000000528391004">
+    <img alt="ISNI" src="https://img.shields.io/badge/ISNI-0000000528391004-F59E0B?style=flat-square&labelColor=92400E">
+  </a>
+  <a href="http://id.loc.gov/authorities/names/no2025114226">
+    <img alt="LCNAF" src="https://img.shields.io/badge/LCNAF-NO2025114226-E11D48?style=flat-square&labelColor=881337">
+  </a>
+  <a href="https://id.worldcat.org/fast/02066349">
+    <img alt="FAST" src="https://img.shields.io/badge/FAST-02066349-0EA5E9?style=flat-square&labelColor=075985">
+  </a>
+  <a href="https://d-nb.info/gnd/1379562554">
+    <img alt="GND" src="https://img.shields.io/badge/GND-1379562554-8B5CF6?style=flat-square&labelColor=4C1D95">
+  </a>
 </p>
 
 ---
@@ -28,7 +48,7 @@
 
 ---
 
-## ABOUT
+## PROFILE
 
 **CHAOGEJILATU** IS AN ENVIRONMENTAL SCIENTIST WORKING ON **CLIMATE CHANGE**, **LAND SYSTEMS**, AND **DATA-DRIVEN ENVIRONMENTAL ANALYSIS**, WITH A FOCUS ON **REMOTE SENSING (E.G., LANDSAT, MODIS)** AND **GEOSPATIAL/STATISTICAL METHODS** FOR REPRODUCIBLE RESEARCH.
 
@@ -51,7 +71,7 @@
 
 ---
 
-## AUTHORITATIVE IDENTIFIERS (TEXT)
+## AUTHORITATIVE IDENTIFIERS
 
 - **WIKIDATA:** https://www.wikidata.org/wiki/Q135964663  
 - **VIAF:** https://viaf.org/en/viaf/7880176726014124980005  

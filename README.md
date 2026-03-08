@@ -44,7 +44,6 @@
 ---
 
 > **CURRENT AFFILIATION:** **NATIONAL AGRICULTURE AND FOOD RESEARCH ORGANIZATION (NARO)** · **TSUKUBA, JAPAN**  
-> **PROFESSIONAL NAME FORM:** **CHAOGEJILATU** (SINGLE WORD, ALL CAPS)
 
 ---
 
@@ -66,20 +65,20 @@
 
 ## OFFICIAL LINKS
 
-- **OFFICIAL SITE:** https://www.chaogejilatu.com  
+- **GATE:** https://www.chaogejilatu.com  
 - **BLOG:** https://chaogejilatu.wordpress.com
 
 ---
 
 ## AUTHORITATIVE IDENTIFIERS
 
-- **WIKIDATA:** https://www.wikidata.org/wiki/Q135964663  
+- **WIKI:** https://www.wikidata.org/wiki/Q135964663  
 - **VIAF:** https://viaf.org/en/viaf/7880176726014124980005  
-- **ORCID:** https://orcid.org/0000-0002-8544-3868  
+- **ORCI:** https://orcid.org/0000-0002-8544-3868  
 - **ISNI:** https://isni.org/isni/0000000528391004  
-- **LCNAF:** http://id.loc.gov/authorities/names/no2025114226  
+- **LCAF:** http://id.loc.gov/authorities/names/no2025114226  
 - **FAST:** https://id.worldcat.org/fast/02066349  
-- **GND:** https://d-nb.info/gnd/1379562554  
+- **GNDR:** https://d-nb.info/gnd/1379562554  
 
 ---
 

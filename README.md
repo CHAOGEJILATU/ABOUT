@@ -57,24 +57,24 @@
 
 ---
 
-**ROOT (家系・出自)**  
+**ORIGIN (家系・出自)**  
 1980年3月8日、内蒙古自治区通遼市に出生。家系伝承においては、成吉思汗（GENGHIS KHAN）第四子・托雷（TOLUI）の系譜に連なる。古の草原に息づく精神を受け継ぎ、現代においては、科学と知性の力で世界を結ぶことを自らの使命とする。
 
-**CORE (精神・哲学)**  
+**ETHOS (精神・哲学)**  
 父・寳音合喜格より授かった「武は一時代を画し、文は万代を拓く」を精神的支柱とし、2001年に渡日。東京農工大学、東京大学を経て、2017年に筑波大学にて博士（環境学）を取得した。その歩みの中で培われたのは、基礎科学の深さと応用科学の実践性を架橋する学際的視座である。
 
-**AREA (専門・領域)**  
+**EXPERTISE (専門・領域)**  
 専門は、遥感学（リモートセンシング）、地理学、気象学、情報学。これらを統合し、地球システム全体を俯瞰する多角的アプローチを真骨頂とする。
 
-**WORK (経歴・実績)**  
+**IMPACT (経歴・実績)**  
 JIRCAS（国際農研）および NARO（農研機構）において、気候変動、土地利用、資源管理といった地球規模課題に取り組み、データ駆動型の革新的なソリューションを提示してきた。その知見は、学術界にとどまらず、国際機関や各国の政策形成の現場においても参照され、SDGs達成に資する科学的基盤となっている。
 
-**HOPE (信条・未来)**  
+**VISION (信条・未来)**  
 「以人為本、教育優先」を信条に、科学を人類の幸福と地球の持続可能性のために捧げる。グローバル・コミュニケーターとして、次世代へ「知ることの力」と「変革への勇気」を届ける、持続可能な未来への架け橋。
 
 ---
 
-## GLBL PROFILE
+## GLOBAL PROFILE
 
 **CHAOGEJILATU** IS AN ENVIRONMENTAL SCIENTIST BASED IN JAPAN, WORKING AT THE INTERSECTION OF **CLIMATE CHANGE**, **LAND-SYSTEM SCIENCE**, **AGRICULTURE & FOOD SECURITY**, **REMOTE SENSING**, AND **DATA-DRIVEN ENVIRONMENTAL ANALYSIS**.
 
@@ -82,13 +82,13 @@ THIS PAGE IS DESIGNED AS A **GLOBAL RESEARCH GATEWAY** CONNECTING OFFICIAL WEB P
 
 ---
 
-## CURR ROLE
+## CURRENT ROLE
 
 > **NATIONAL AGRICULTURE AND FOOD RESEARCH ORGANIZATION (NARO)** · **JAPAN**
 
 ---
 
-## RESH FOCUS
+## RESEARCH FOCUS
 
 <p>
 ■ <b>CLIMATE CHANGE IMPACTS ON AGRICULTURE AND FOOD SECURITY</b><br/>
@@ -100,7 +100,7 @@ THIS PAGE IS DESIGNED AS A **GLOBAL RESEARCH GATEWAY** CONNECTING OFFICIAL WEB P
 
 ---
 
-## GLBL REACH
+## GLOBAL REACH
 
 THIS REPOSITORY FUNCTIONS AS A CONCISE AND ELEGANT **INTERNATIONAL ABOUT PAGE** FOR **CHAOGEJILATU**.
 
@@ -115,7 +115,7 @@ IT IS DESIGNED TO:
 
 ---
 
-## SITE LINKS
+## OFFICIAL LINKS
 
 <p>
 ■ <b>SITE</b> — <a href="https://www.chaogejilatu.com">HTTPS://WWW.CHAOGEJILATU.COM</a><br/>
@@ -124,7 +124,7 @@ IT IS DESIGNED TO:
 
 ---
 
-## KNOW BASE
+## GLOBAL REFERENCES
 
 <p>
 ■ <b>WIKI</b> — <a href="https://www.wikidata.org/wiki/Q135964663">HTTPS://WWW.WIKIDATA.ORG/WIKI/Q135964663</a><br/>
@@ -135,7 +135,7 @@ IT IS DESIGNED TO:
 
 ---
 
-## AUTH REFS
+## AUTHORITY REFERENCES
 
 <p>
 ■ <b>ORCD</b> — <a href="https://orcid.org/0000-0002-8544-3868">HTTPS://ORCID.ORG/0000-0002-8544-3868</a><br/>
@@ -147,7 +147,7 @@ IT IS DESIGNED TO:
 
 ---
 
-## CONT INFO
+## CONTACT
 
 FOR PROFESSIONAL INQUIRIES, PLEASE USE THE CONTACT CHANNELS PROVIDED ON THE **OFFICIAL SITE**:
 
@@ -157,7 +157,7 @@ FOR PROFESSIONAL INQUIRIES, PLEASE USE THE CONTACT CHANNELS PROVIDED ON THE **OF
 
 ---
 
-## REPO ROLE
+## REPOSITORY PURPOSE
 
 THIS REPOSITORY IS MAINTAINED AS A **PUBLIC-FACING GLOBAL PROFILE** FOR **CHAOGEJILATU**.
 

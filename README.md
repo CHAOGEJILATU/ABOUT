@@ -1,7 +1,7 @@
 # CHAOGEJILATU
 
 <p align="center">
-  <b>CHINESE</b>: 朝格吉拉图 · <b>JAPANESE</b>: 朝格吉拉図 · <b>MONGOLIAN</b>: ᠴᠣᠭᠵᠢᠯᠲᠤ
+  <b>CHINESE</b> : 朝格吉拉图 · <b>JAPANESE</b> : 朝格吉拉図 · <b>MONGOLIAN</b> : ᠴᠣᠭᠵᠢᠯᠲᠤ
 </p>
 <p align="center">
   <b>ENVIRONMENTAL SCIENTIST</b><br/>

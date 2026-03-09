@@ -1,6 +1,9 @@
 # CHAOGEJILATU
 
 <p align="center">
+  <b>CHINESE</b>: 朝格吉拉图 · <b>JAPANESE</b>: 朝格吉拉図 · <b>MONGOLIAN</b>: ᠴᠣᠭᠵᠢᠯᠲᠤ
+</p>
+<p align="center">
   <b>ENVIRONMENTAL SCIENTIST</b><br/>
   <b>GLOBAL CLIMATE CHANGE</b> · <b>LAND SYSTEMS</b> · <b>AGRICULTURE & FOOD SECURITY</b><br/>
   <b>REMOTE SENSING</b> · <b>GEOSPATIAL & STATISTICAL ANALYSIS</b> · <b>REPRODUCIBLE RESEARCH WORKFLOWS</b>

@@ -77,6 +77,29 @@ JIRCAS（国際農研）および NARO（農研機構）において、気候変
 
 ---
 
+## ABOUT ME (ENGLISH)
+
+<p align="center">
+  <img src="https://github.com/chaogejilatu.png" alt="Portrait of Chaogejilatu" width="200"/>
+</p>
+
+**ORIGIN**  
+Born on 8 March 1980 in Tongliao, Inner Mongolia. According to family tradition, the lineage traces back to Tolui, the fourth son of Genghis Khan. Inheriting the spirit of the ancient steppe, Chaogejilatu has made it a lifelong mission to connect the world through science and knowledge.
+
+**ETHOS**  
+Guided by a maxim passed down from father Bayanhishig (寳音合喜格) — *"Martial strength defines an era; learning opens the way for ten thousand generations"* — Chaogejilatu moved to Japan in 2001. After studying at the Tokyo University of Agriculture and Technology and the University of Tokyo, Chaogejilatu received a Ph.D. in Environmental Studies from the University of Tsukuba in 2017. This path shaped an interdisciplinary perspective that bridges the depth of fundamental science with the practicality of applied science.
+
+**EXPERTISE**  
+Specializing in remote sensing, geography, meteorology, and informatics, Chaogejilatu integrates these fields into a multi-angle approach for understanding the Earth system as a whole.
+
+**IMPACT**  
+At JIRCAS (Japan International Research Center for Agricultural Sciences) and NARO (National Agriculture and Food Research Organization), Chaogejilatu has addressed global challenges such as climate change, land use, and resource management, delivering innovative data-driven solutions. This work is referenced not only in academia but also by international organizations and in national policymaking, providing a scientific foundation for achieving the Sustainable Development Goals (SDGs).
+
+**VISION**  
+Under the creed *"People first, education first"* (以人為本、教育優先), Chaogejilatu dedicates science to human well-being and the sustainability of our planet — serving as a global communicator and a bridge to a sustainable future, passing on to the next generation *the power of knowing* and *the courage to change*.
+
+---
+
 ## GLOBAL PROFILE
 
 **CHAOGEJILATU** IS AN ENVIRONMENTAL SCIENTIST BASED IN JAPAN, WORKING AT THE INTERSECTION OF **CLIMATE CHANGE**, **LAND-SYSTEM SCIENCE**, **AGRICULTURE & FOOD SECURITY**, **REMOTE SENSING**, AND **DATA-DRIVEN ENVIRONMENTAL ANALYSIS**.

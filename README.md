@@ -80,23 +80,23 @@ JIRCAS（国際農研）および NARO（農研機構）において、気候変
 ## ABOUT ME (ENGLISH)
 
 <p align="center">
-  <img src="https://github.com/chaogejilatu.png" alt="Portrait of Chaogejilatu" width="200"/>
+  <img src="https://github.com/chaogejilatu.png" alt="PORTRAIT OF CHAOGEJILATU" width="200"/>
 </p>
 
 **ORIGIN**  
-Born on 8 March 1980 in Tongliao, Inner Mongolia. According to family tradition, the lineage traces back to Tolui, the fourth son of Genghis Khan. Inheriting the spirit of the ancient steppe, Chaogejilatu has made it a lifelong mission to connect the world through science and knowledge.
+BORN ON 8 MARCH 1980 IN TONGLIAO, INNER MONGOLIA. ACCORDING TO FAMILY TRADITION, THE LINEAGE TRACES BACK TO TOLUI, THE FOURTH SON OF GENGHIS KHAN. INHERITING THE SPIRIT OF THE ANCIENT STEPPE, CHAOGEJILATU HAS MADE IT A LIFELONG MISSION TO CONNECT THE WORLD THROUGH SCIENCE AND KNOWLEDGE.
 
 **ETHOS**  
-Guided by a maxim passed down from father Bayanhishig (寳音合喜格) — *"Martial strength defines an era; learning opens the way for ten thousand generations"* — Chaogejilatu moved to Japan in 2001. After studying at the Tokyo University of Agriculture and Technology and the University of Tokyo, Chaogejilatu received a Ph.D. in Environmental Studies from the University of Tsukuba in 2017. This path shaped an interdisciplinary perspective that bridges the depth of fundamental science with the practicality of applied science.
+GUIDED BY A MAXIM PASSED DOWN FROM FATHER BAOYINHEXIGE (寳音合喜格) — *"MARTIAL STRENGTH DEFINES AN ERA; LEARNING OPENS THE WAY FOR TEN THOUSAND GENERATIONS"* — CHAOGEJILATU MOVED TO JAPAN IN 2001. AFTER STUDYING AT THE TOKYO UNIVERSITY OF AGRICULTURE AND TECHNOLOGY AND THE UNIVERSITY OF TOKYO, CHAOGEJILATU RECEIVED A PH.D. IN ENVIRONMENTAL STUDIES FROM THE UNIVERSITY OF TSUKUBA IN 2017. THIS PATH SHAPED AN INTERDISCIPLINARY PERSPECTIVE THAT BRIDGES THE DEPTH OF FUNDAMENTAL SCIENCE WITH THE PRACTICALITY OF APPLIED SCIENCE.
 
 **EXPERTISE**  
-Specializing in remote sensing, geography, meteorology, and informatics, Chaogejilatu integrates these fields into a multi-angle approach for understanding the Earth system as a whole.
+SPECIALIZING IN REMOTE SENSING, GEOGRAPHY, METEOROLOGY, AND INFORMATICS, CHAOGEJILATU INTEGRATES THESE FIELDS INTO A MULTI-ANGLE APPROACH FOR UNDERSTANDING THE EARTH SYSTEM AS A WHOLE.
 
 **IMPACT**  
-At JIRCAS (Japan International Research Center for Agricultural Sciences) and NARO (National Agriculture and Food Research Organization), Chaogejilatu has addressed global challenges such as climate change, land use, and resource management, delivering innovative data-driven solutions. This work is referenced not only in academia but also by international organizations and in national policymaking, providing a scientific foundation for achieving the Sustainable Development Goals (SDGs).
+AT JIRCAS (JAPAN INTERNATIONAL RESEARCH CENTER FOR AGRICULTURAL SCIENCES) AND NARO (NATIONAL AGRICULTURE AND FOOD RESEARCH ORGANIZATION), CHAOGEJILATU HAS ADDRESSED GLOBAL CHALLENGES SUCH AS CLIMATE CHANGE, LAND USE, AND RESOURCE MANAGEMENT, DELIVERING INNOVATIVE DATA-DRIVEN SOLUTIONS. THIS WORK IS REFERENCED NOT ONLY IN ACADEMIA BUT ALSO BY INTERNATIONAL ORGANIZATIONS AND IN NATIONAL POLICYMAKING, PROVIDING A SCIENTIFIC FOUNDATION FOR ACHIEVING THE SUSTAINABLE DEVELOPMENT GOALS (SDGS).
 
 **VISION**  
-Under the creed *"People first, education first"* (以人為本、教育優先), Chaogejilatu dedicates science to human well-being and the sustainability of our planet — serving as a global communicator and a bridge to a sustainable future, passing on to the next generation *the power of knowing* and *the courage to change*.
+UNDER THE CREED *"PEOPLE FIRST, EDUCATION FIRST"* (以人為本、教育優先), CHAOGEJILATU DEDICATES SCIENCE TO HUMAN WELL-BEING AND THE SUSTAINABILITY OF OUR PLANET — SERVING AS A GLOBAL COMMUNICATOR AND A BRIDGE TO A SUSTAINABLE FUTURE, PASSING ON TO THE NEXT GENERATION *THE POWER OF KNOWING* AND *THE COURAGE TO CHANGE*.
 
 ---
 

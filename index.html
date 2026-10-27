@@ -1,0 +1,725 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>CHAOGEJILATU</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Chaogejilatu — environmental scientist working across climate change, remote sensing, agriculture, AI and planetary resilience. Born in Inner Mongolia, based in Japan.">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="CHAOGEJILATU — Environmental Scientist">
+<meta property="og:description" content="From the lineage of the Azure Wolf to the frontiers of climate change · remote sensing · agriculture · AI · planetary resilience.">
+<meta property="og:image" content="images/portrait.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,300..900&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+JP:wght@300;400;600&family=IBM+Plex+Sans:wght@300;400;500;600&family=Noto+Sans+Mongolian&display=swap">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Chaogejilatu",
+  "alternateName": ["朝格吉拉图", "朝格吉拉図", "ᠴᠣᠭᠵᠢᠯᠲᠤ"],
+  "birthDate": "1980-03-08",
+  "birthPlace": "Tongliao, Inner Mongolia",
+  "jobTitle": "Environmental Scientist",
+  "url": "https://www.chaogejilatu.com",
+  "alumniOf": ["Tokyo University of Agriculture and Technology", "The University of Tokyo", "University of Tsukuba"],
+  "knowsAbout": ["Climate change", "Remote sensing", "Geography", "Meteorology", "Informatics", "Agriculture", "Food security", "Land systems"],
+  "sameAs": [
+    "https://chaogejilatu.wordpress.com",
+    "https://www.wikidata.org/wiki/Q135964663",
+    "https://viaf.org/en/viaf/7880176726014124980005",
+    "https://orcid.org/0000-0002-8544-3868",
+    "https://isni.org/isni/0000000528391004",
+    "http://id.loc.gov/authorities/names/no2025114226",
+    "https://id.worldcat.org/fast/02066349",
+    "https://explore.gnd.network/gnd/1379562554"
+  ]
+}
+</script>
+<style>
+/* Layout: a night-sky observation deck — a live satellite swath over steppe contours, then a single
+   reading column with wide-set display type and instrument-style mono annotations. */
+:root {
+  --bg: #0A1120;          /* steppe night, biased toward azure */
+  --panel: #0F1A2E;
+  --ink: #E6EDF6;
+  --mute: #8C9DB5;
+  --line: rgba(160, 190, 230, .16);
+  --azure: #5AAEEA;       /* Köke Tengri — the eternal blue sky */
+  --gold: #D8B56E;        /* dry-season grass, used only for coordinates */
+  --azure-soft: rgba(90, 174, 234, .14);
+  --display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --body: "IBM Plex Sans", "IBM Plex Sans JP", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  --mong: "Noto Sans Mongolian", "Mongolian Baiti", serif;
+  --wrap: 1120px;
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --bg: #F2F5F9; --panel: #FFFFFF; --ink: #0C1526; --mute: #4F5F76;
+    --line: rgba(20, 40, 80, .14); --azure: #1C6CAE; --gold: #8E6418;
+    --azure-soft: rgba(28, 108, 174, .10); color-scheme: light;
+  }
+}
+:root[data-theme="light"] {
+  --bg: #F2F5F9; --panel: #FFFFFF; --ink: #0C1526; --mute: #4F5F76;
+  --line: rgba(20, 40, 80, .14); --azure: #1C6CAE; --gold: #8E6418;
+  --azure-soft: rgba(28, 108, 174, .10); color-scheme: light;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 400 17px/1.7 var(--body); -webkit-font-smoothing: antialiased;
+}
+:root[data-lang="ja"] body { font-family: "IBM Plex Sans JP", var(--body); line-height: 1.9; }
+:root:not([data-lang="ja"]) .ja { display: none !important; }
+:root[data-lang="ja"] .en { display: none !important; }
+img { max-width: 100%; display: block; }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--azure); outline-offset: 3px; border-radius: 2px; }
+::selection { background: var(--azure); color: var(--bg); }
+
+.wrap {
+  width: 100%; max-width: var(--wrap); margin-inline: auto;
+  padding-left: max(20px, env(safe-area-inset-left, 0px));
+  padding-right: max(20px, env(safe-area-inset-right, 0px));
+}
+.mono { font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
+.coord { color: var(--gold); font-family: var(--mono); font-size: 12px; letter-spacing: .06em; }
+.eyebrow { font-family: var(--mono); font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: var(--azure); }
+
+/* ---------- nav ---------- */
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 30; background: var(--bg); }
+.nav {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20;
+  background: color-mix(in srgb, var(--bg) 78%, transparent);
+  backdrop-filter: blur(14px) saturate(140%); -webkit-backdrop-filter: blur(14px) saturate(140%);
+  border-bottom: 1px solid var(--line);
+}
+.nav .wrap { display: flex; align-items: center; gap: 20px; height: 60px; }
+.brand { font: 800 15px/1 var(--display); font-stretch: 125%; letter-spacing: .14em; text-decoration: none; white-space: nowrap; }
+.nav-links { display: flex; gap: 22px; margin-left: auto; overflow-x: auto; scrollbar-width: none; min-width: 0; }
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a { font-family: var(--mono); font-size: 12px; letter-spacing: .12em; text-transform: uppercase; text-decoration: none; color: var(--mute); white-space: nowrap; padding-block: 6px; }
+.nav-links a:hover { color: var(--ink); }
+.lang { display: flex; border: 1px solid var(--line); border-radius: 999px; padding: 3px; flex: none; }
+.lang button {
+  font: 500 12px/1 var(--mono); letter-spacing: .06em; color: var(--mute); background: none; border: 0;
+  padding: 7px 11px; border-radius: 999px; cursor: pointer;
+}
+.lang button[aria-pressed="true"] { background: var(--azure); color: var(--bg); }
+@media (max-width: 760px) { .nav-links { display: none; } .lang { margin-left: auto; } }
+
+/* ---------- hero ---------- */
+.hero { position: relative; overflow: hidden; border-bottom: 1px solid var(--line); }
+#swath { position: absolute; inset: 0; width: 100%; height: 100%; }
+.hero::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(180deg, transparent 40%, var(--bg) 100%);
+}
+.hero .wrap { position: relative; z-index: 1; padding-block: clamp(72px, 12vw, 150px) clamp(56px, 8vw, 96px); display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: end; }
+.hero-main { min-width: 0; }
+.hero h1 {
+  margin: 18px 0 0; font-family: var(--display); font-weight: 850; font-stretch: 125%;
+  font-size: clamp(28px, 8vw, 92px); line-height: .92; letter-spacing: .02em;
+  white-space: nowrap;
+}
+.hero h1 .rule { display: block; height: 4px; width: 0; background: var(--azure); margin-top: 22px; animation: draw 1.4s .3s cubic-bezier(.2,.7,.1,1) forwards; }
+@keyframes draw { to { width: min(420px, 60%); } }
+.names { display: flex; flex-wrap: wrap; gap: 8px 22px; margin-top: 26px; color: var(--mute); font-size: 15px; }
+.names b { color: var(--ink); font-weight: 500; }
+.tagline {
+  margin: 30px 0 0; max-width: 34ch; font: 300 clamp(20px, 2.6vw, 30px)/1.35 var(--body);
+  text-wrap: balance;
+}
+:root[data-lang="ja"] .tagline { font-family: "IBM Plex Sans JP", var(--body); }
+.tagline em { font-style: normal; color: var(--azure); }
+.cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 36px; }
+.btn {
+  display: inline-flex; align-items: center; gap: 10px; text-decoration: none;
+  font: 500 13px/1 var(--mono); letter-spacing: .1em; text-transform: uppercase;
+  padding: 15px 20px; border: 1px solid var(--line); border-radius: 2px; transition: border-color .2s, background .2s, color .2s;
+}
+.btn:hover { border-color: var(--azure); }
+.btn.primary { background: var(--azure); border-color: var(--azure); color: var(--bg); }
+.btn.primary:hover { background: transparent; color: var(--azure); }
+.btn .arr { transition: transform .2s; }
+.btn:hover .arr { transform: translateX(4px); }
+.mongol {
+  writing-mode: vertical-lr; font-family: var(--mong); font-size: clamp(36px, 5vw, 64px); line-height: 1;
+  color: var(--azure); opacity: .9; align-self: stretch; text-align: center;
+  border-left: 1px solid var(--line); padding-left: 24px;
+}
+.hud { position: absolute; z-index: 1; left: max(20px, env(safe-area-inset-left, 0px)); right: max(20px, env(safe-area-inset-right, 0px)); top: 18px; display: flex; justify-content: space-between; gap: 12px; color: var(--mute); pointer-events: none; }
+@media (max-width: 640px) {
+  .hero .wrap { grid-template-columns: 1fr; }
+  .mongol { writing-mode: horizontal-tb; border-left: 0; padding-left: 0; text-align: left; font-size: 30px; }
+  .hud span:last-child { display: none; }
+}
+
+/* ---------- ticker ---------- */
+.ticker { border-bottom: 1px solid var(--line); overflow: hidden; padding-block: 18px; }
+.ticker-track { display: flex; width: max-content; animation: tick 38s linear infinite; }
+.ticker-track span { font: 700 clamp(18px, 2.4vw, 26px)/1 var(--display); font-stretch: 112%; letter-spacing: .06em; white-space: nowrap; padding-inline: 22px; color: var(--mute); }
+.ticker-track span:nth-child(odd) { color: var(--ink); }
+.ticker-track i { font-style: normal; color: var(--azure); }
+@keyframes tick { to { transform: translateX(-50%); } }
+
+/* ---------- sections ---------- */
+section { padding-block: clamp(72px, 10vw, 128px); }
+section + section { border-top: 1px solid var(--line); }
+.sec-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 12px 24px; margin-bottom: clamp(36px, 5vw, 56px); }
+h2 {
+  margin: 10px 0 0; font: 800 clamp(30px, 5vw, 56px)/1 var(--display); font-stretch: 118%;
+  letter-spacing: .01em; text-wrap: balance;
+}
+:root[data-lang="ja"] h2 .ja { font-family: "IBM Plex Sans JP", var(--body); font-weight: 600; letter-spacing: .04em; }
+
+/* manifesto */
+.manifesto { font: 300 clamp(24px, 3.6vw, 44px)/1.3 var(--body); max-width: 26em; text-wrap: balance; margin: 0; }
+:root[data-lang="ja"] .manifesto { font-size: clamp(21px, 3vw, 36px); line-height: 1.6; }
+.manifesto strong { font-weight: 500; color: var(--azure); }
+.maxim { display: grid; grid-template-columns: auto 1fr; gap: 6px 24px; margin-top: 56px; padding-top: 28px; border-top: 1px solid var(--line); max-width: 760px; }
+.maxim .zh { font-size: clamp(22px, 3vw, 30px); letter-spacing: .12em; font-family: "IBM Plex Sans JP", var(--body); font-weight: 600; grid-row: span 2; }
+.maxim p { margin: 0; color: var(--mute); font-size: 15px; }
+@media (max-width: 560px) { .maxim { grid-template-columns: 1fr; } .maxim .zh { grid-row: auto; } }
+
+/* pillars */
+.pillars { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); }
+.pillar { background: var(--bg); padding: 30px 28px 34px; display: flex; flex-direction: column; gap: 14px; min-width: 0; transition: background .25s; }
+.pillar:hover { background: var(--panel); }
+.pillar h3 { margin: 0; font: 700 20px/1.2 var(--display); font-stretch: 120%; letter-spacing: .1em; }
+.pillar h3 small { display: block; font: 400 12px/1.4 var(--mono); letter-spacing: .1em; color: var(--azure); margin-bottom: 8px; }
+.pillar p { margin: 0; color: var(--mute); font-size: 15.5px; }
+.pillar.portrait { padding: 0; position: relative; overflow: hidden; min-height: 320px; }
+.pillar.portrait img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: grayscale(.2) contrast(1.05); transition: transform .8s; }
+.pillar.portrait:hover img { transform: scale(1.04); }
+.pillar.portrait figcaption { position: absolute; left: 0; right: 0; bottom: 0; padding: 18px 22px; background: linear-gradient(transparent, rgba(5,10,20,.85)); color: #E6EDF6; }
+
+/* journey */
+.journey { list-style: none; margin: 0; padding: 0; position: relative; }
+.journey::before { content: ""; position: absolute; left: 112px; top: 8px; bottom: 8px; width: 1px; background: var(--line); }
+.journey li { display: grid; grid-template-columns: 112px 1fr; gap: 0 36px; padding-block: 18px; position: relative; }
+.journey li::after { content: ""; position: absolute; left: 108px; top: 30px; width: 9px; height: 9px; border-radius: 50%; background: var(--bg); border: 2px solid var(--azure); }
+.journey .yr { font: 800 26px/1.2 var(--display); font-stretch: 115%; font-variant-numeric: tabular-nums; padding-top: 6px; }
+.journey .yr.small { font-size: 15px; letter-spacing: .08em; padding-top: 12px; }
+.journey .body { padding-left: 4px; min-width: 0; }
+.journey h3 { margin: 4px 0 4px; font-size: 19px; font-weight: 600; }
+.journey p { margin: 0; color: var(--mute); font-size: 15.5px; }
+@media (max-width: 560px) {
+  .journey::before { left: 6px; }
+  .journey li { grid-template-columns: 1fr; padding-left: 30px; }
+  .journey li::after { left: 2px; top: 28px; }
+}
+
+/* fields */
+.fields { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); gap: 28px 36px; }
+.field { border-top: 2px solid var(--azure); padding-top: 18px; min-width: 0; }
+.field .mono { color: var(--azure); }
+.field h3 { margin: 8px 0 8px; font: 700 21px/1.2 var(--display); font-stretch: 112%; }
+.field p { margin: 0; color: var(--mute); font-size: 15px; }
+
+/* book */
+.book { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(32px, 6vw, 80px); align-items: center; }
+.cover { position: relative; perspective: 1200px; max-width: 420px; justify-self: center; width: 100%; }
+.cover a { display: block; transform: rotateY(-14deg) rotateX(3deg); transform-style: preserve-3d; transition: transform .6s cubic-bezier(.2,.7,.1,1); box-shadow: 30px 40px 60px -20px rgba(0,0,0,.55), 0 0 0 1px var(--line); }
+.cover a:hover { transform: rotateY(-4deg) rotateX(1deg); }
+.cover::before { content: ""; position: absolute; inset: 8% -10% -6% 12%; background: radial-gradient(closest-side, var(--azure-soft), transparent); z-index: -1; filter: blur(10px); }
+.book-text { min-width: 0; }
+.book-text h3 { margin: 12px 0 6px; font-size: clamp(28px, 4vw, 44px); line-height: 1.25; font-weight: 600; font-family: "IBM Plex Sans JP", var(--body); letter-spacing: .04em; }
+.book-text .sub { color: var(--mute); margin: 0 0 22px; }
+.book-text .en-title { font: 800 clamp(18px, 2.2vw, 24px)/1.25 var(--display); font-stretch: 115%; letter-spacing: .04em; margin: 0 0 6px; }
+.meta { display: grid; grid-template-columns: auto 1fr; gap: 6px 20px; margin: 26px 0 30px; padding-block: 18px; border-block: 1px solid var(--line); }
+.meta dt { font-family: var(--mono); font-size: 12px; letter-spacing: .1em; color: var(--mute); text-transform: uppercase; padding-top: 3px; }
+.meta dd { margin: 0; font-variant-numeric: tabular-nums; }
+@media (max-width: 760px) { .book { grid-template-columns: 1fr; } .cover { max-width: 300px; } }
+
+/* registry */
+.registry { border-top: 1px solid var(--line); }
+.reg-row {
+  display: grid; grid-template-columns: 90px minmax(0, 1.2fr) minmax(0, 1fr) 24px; gap: 16px; align-items: center;
+  padding: 18px 4px; border-bottom: 1px solid var(--line); text-decoration: none; transition: background .2s, padding .2s;
+}
+.reg-row:hover { background: var(--azure-soft); padding-left: 14px; }
+.reg-row .code { font: 700 13px/1 var(--mono); letter-spacing: .12em; color: var(--azure); }
+.reg-row .name { font-weight: 500; }
+.reg-row .id { font-family: var(--mono); font-size: 13.5px; color: var(--mute); font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.reg-row .go { color: var(--mute); text-align: right; }
+.reg-row:hover .go { color: var(--azure); }
+@media (max-width: 640px) {
+  .reg-row { grid-template-columns: 64px minmax(0, 1fr) 20px; }
+  .reg-row .id { grid-column: 2; grid-row: 2; }
+  .reg-row .go { grid-column: 3; grid-row: 1 / span 2; }
+}
+
+/* contact */
+.contact { text-align: left; }
+.contact .big {
+  display: inline-block; margin-top: 18px; font: 800 clamp(26px, 6vw, 72px)/1.05 var(--display); font-stretch: 118%;
+  text-decoration: none; letter-spacing: .01em; overflow-wrap: anywhere;
+  background: linear-gradient(var(--azure), var(--azure)) left bottom / 0 3px no-repeat; transition: background-size .5s;
+  padding-bottom: 6px;
+}
+.contact .big:hover { background-size: 100% 3px; }
+.contact p { color: var(--mute); max-width: 52ch; }
+
+footer { border-top: 1px solid var(--line); padding-block: 36px calc(36px + env(safe-area-inset-bottom, 0px)); color: var(--mute); }
+footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 24px; }
+
+/* reveal: elements rest visible; motion is an enhancement only */
+.reveal { transition: transform .9s cubic-bezier(.2,.7,.1,1); }
+.js .reveal.pending { transform: translateY(24px); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .001s !important; animation-iteration-count: 1 !important; transition: none !important; }
+  .js .reveal.pending { transform: none; }
+  html { scroll-behavior: auto; }
+}
+</style>
+</head>
+<body>
+
+<nav class="nav" aria-label="Primary">
+  <div class="wrap">
+    <a class="brand" href="#top">CHAOGEJILATU</a>
+    <div class="nav-links">
+      <a href="#about"><span class="en">About</span><span class="ja">プロフィール</span></a>
+      <a href="#journey"><span class="en">Journey</span><span class="ja">歩み</span></a>
+      <a href="#fields"><span class="en">Research</span><span class="ja">研究領域</span></a>
+      <a href="#book"><span class="en">Book</span><span class="ja">著書</span></a>
+      <a href="#identity"><span class="en">Identity</span><span class="ja">典拠</span></a>
+      <a href="#contact"><span class="en">Contact</span><span class="ja">連絡先</span></a>
+    </div>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" id="lang-en" data-set-lang="en" aria-pressed="true">EN</button>
+      <button type="button" id="lang-ja" data-set-lang="ja" aria-pressed="false">日本語</button>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <canvas id="swath" aria-hidden="true"></canvas>
+  <div class="hud mono" aria-hidden="true">
+    <span id="hud-l">SCENE 43.65°N 122.24°E · TONGLIAO</span>
+    <span id="hud-r">SWATH 185 KM · NDVI</span>
+  </div>
+  <div class="wrap">
+    <div class="hero-main">
+      <div class="eyebrow">
+        <span class="en">Environmental Scientist · Ph.D. in Environmental Studies</span>
+        <span class="ja">環境科学者 · 博士（環境学）</span>
+      </div>
+      <h1>CHAOGEJILATU<span class="rule"></span></h1>
+      <div class="names">
+        <span><b>中文</b> 朝格吉拉图</span>
+        <span><b>日本語</b> 朝格吉拉図</span>
+        <span><b>Mongolian</b> ᠴᠣᠭᠵᠢᠯᠲᠤ</span>
+      </div>
+      <p class="tagline">
+        <span class="en">From the lineage of the Azure Wolf to the frontiers of <em>climate change, remote sensing, agriculture, AI</em> and planetary resilience.</span>
+        <span class="ja">蒼き狼の系譜から、<em>気候変動・リモートセンシング・農業・AI</em>、そして地球のレジリエンスの最前線へ。</span>
+      </p>
+      <div class="cta">
+        <a class="btn primary" href="#about"><span class="en">Read the story</span><span class="ja">ストーリーを読む</span> <span class="arr">→</span></a>
+        <a class="btn" href="#book"><span class="en">The book · 2026</span><span class="ja">著書 · 2026</span> <span class="arr">→</span></a>
+      </div>
+    </div>
+    <div class="mongol" lang="mn-Mong" aria-hidden="true">ᠴᠣᠭᠵᠢᠯᠲᠤ</div>
+  </div>
+</header>
+
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <span>CLIMATE CHANGE</span><span><i>·</i></span><span>REMOTE SENSING</span><span><i>·</i></span><span>AGRICULTURE &amp; FOOD SECURITY</span><span><i>·</i></span><span>LAND SYSTEMS</span><span><i>·</i></span><span>AI</span><span><i>·</i></span><span>PLANETARY RESILIENCE</span><span><i>·</i></span>
+    <span>CLIMATE CHANGE</span><span><i>·</i></span><span>REMOTE SENSING</span><span><i>·</i></span><span>AGRICULTURE &amp; FOOD SECURITY</span><span><i>·</i></span><span>LAND SYSTEMS</span><span><i>·</i></span><span>AI</span><span><i>·</i></span><span>PLANETARY RESILIENCE</span><span><i>·</i></span>
+  </div>
+</div>
+
+<main>
+
+<section id="manifesto">
+  <div class="wrap reveal">
+    <div class="eyebrow"><span class="en">Bridging millennia</span><span class="ja">千年を架橋する</span></div>
+    <p class="manifesto" style="margin-top:22px">
+      <span class="en">Where the echoes of ancient wisdom meet the frontiers of human innovation, lighting the path toward a <strong>resilient, sustainable and hope-filled planet</strong> for all life.</span>
+      <span class="ja">古の叡智の響きが人類のイノベーションの最前線と出会い、すべての生命のための<strong>しなやかで持続可能な、希望に満ちた地球</strong>への道を照らす。</span>
+    </p>
+    <div class="maxim">
+      <div class="zh" lang="zh">武は一時代を画し<br>文は万代を拓く</div>
+      <p class="en">A maxim passed down from father Baoyinhexige: “Martial strength defines an era; learning opens the way for ten thousand generations.”</p>
+      <p class="ja">父・寳音合喜格より授かった言葉。今も精神の支柱であり続ける。</p>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div>
+        <div class="eyebrow"><span class="en">About</span><span class="ja">プロフィール</span></div>
+        <h2><span class="en">Steppe-born. Science-driven.</span><span class="ja">草原に生まれ、科学で世界を結ぶ。</span></h2>
+      </div>
+      <span class="coord">TONGLIAO 43.65°N · TSUKUBA 36.08°N</span>
+    </div>
+
+    <div class="pillars reveal">
+      <figure class="pillar portrait" style="margin:0">
+        <img src="images/portrait.jpg" alt="Portrait of Chaogejilatu" loading="lazy" width="1227" height="1281">
+        <figcaption><span class="mono">Chaogejilatu</span></figcaption>
+      </figure>
+      <article class="pillar">
+        <h3><small><span class="en">Family &amp; heritage</span><span class="ja">家系・出自</span></small>ORIGIN</h3>
+        <p class="en">Born on 8 March 1980 in Tongliao, Inner Mongolia. Family tradition traces the lineage to Tolui, fourth son of Genghis Khan. Carrying the spirit of the ancient steppe, Chaogejilatu has made it a lifelong mission to connect the world through science and knowledge.</p>
+        <p class="ja">1980年3月8日、内蒙古自治区通遼市に出生。家系伝承においては、成吉思汗第四子・托雷の系譜に連なる。古の草原に息づく精神を受け継ぎ、科学と知性の力で世界を結ぶことを自らの使命とする。</p>
+      </article>
+      <article class="pillar">
+        <h3><small><span class="en">Spirit &amp; philosophy</span><span class="ja">精神・哲学</span></small>ETHOS</h3>
+        <p class="en">Moved to Japan in 2001. Studied at the Tokyo University of Agriculture and Technology and the University of Tokyo, then earned a Ph.D. in Environmental Studies from the University of Tsukuba in 2017. That path built a view that links the depth of fundamental science with the practice of applied science.</p>
+        <p class="ja">2001年に渡日。東京農工大学、東京大学を経て、2017年に筑波大学にて博士（環境学）を取得。その歩みの中で、基礎科学の深さと応用科学の実践性を架橋する学際的視座を培った。</p>
+      </article>
+      <article class="pillar">
+        <h3><small><span class="en">Fields of work</span><span class="ja">専門・領域</span></small>EXPERTISE</h3>
+        <p class="en">Remote sensing, geography, meteorology and informatics, combined into one approach for reading the Earth system as a whole.</p>
+        <p class="ja">専門は遥感学（リモートセンシング）、地理学、気象学、情報学。これらを統合し、地球システム全体を俯瞰する多角的アプローチを真骨頂とする。</p>
+      </article>
+      <article class="pillar">
+        <h3><small><span class="en">Career &amp; results</span><span class="ja">経歴・実績</span></small>IMPACT</h3>
+        <p class="en">At JIRCAS and NARO, work on climate change, land use and resource management has produced data-driven solutions referenced in academia, by international organizations and in national policymaking, supporting progress on the SDGs.</p>
+        <p class="ja">JIRCAS（国際農研）および NARO（農研機構）において、気候変動、土地利用、資源管理に取り組み、データ駆動型のソリューションを提示。その知見は国際機関や各国の政策形成でも参照され、SDGs達成の科学的基盤となっている。</p>
+      </article>
+      <article class="pillar">
+        <h3><small><span class="en">Belief &amp; future</span><span class="ja">信条・未来</span></small>VISION</h3>
+        <p class="en">Under the creed “people first, education first”, science is dedicated to human well-being and a sustainable planet, passing on to the next generation the power of knowing and the courage to change.</p>
+        <p class="ja">「以人為本、教育優先」を信条に、科学を人類の幸福と地球の持続可能性のために捧げる。次世代へ「知ることの力」と「変革への勇気」を届ける。</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="journey">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div>
+        <div class="eyebrow"><span class="en">Journey</span><span class="ja">歩み</span></div>
+        <h2><span class="en">From the grasslands to orbit-scale science</span><span class="ja">草原から、地球を俯瞰する科学へ</span></h2>
+      </div>
+    </div>
+    <ol class="journey reveal">
+      <li>
+        <div class="yr">1980</div>
+        <div class="body">
+          <span class="coord">43.65°N 122.24°E</span>
+          <h3><span class="en">Born in Tongliao, Inner Mongolia</span><span class="ja">内蒙古自治区通遼市に生まれる</span></h3>
+          <p><span class="en">Tongliao lies on the Horqin grassland of eastern Inner Mongolia.</span><span class="ja">通遼は内モンゴル東部のホルチン草原に位置する。</span></p>
+        </div>
+      </li>
+      <li>
+        <div class="yr">2001</div>
+        <div class="body">
+          <span class="coord">35.68°N 139.48°E</span>
+          <h3><span class="en">Moves to Japan</span><span class="ja">渡日</span></h3>
+          <p><span class="en">Studies at the Tokyo University of Agriculture and Technology and the University of Tokyo.</span><span class="ja">東京農工大学、東京大学で学ぶ。</span></p>
+        </div>
+      </li>
+      <li>
+        <div class="yr">2017</div>
+        <div class="body">
+          <span class="coord">36.10°N 140.10°E</span>
+          <h3><span class="en">Ph.D. in Environmental Studies, University of Tsukuba</span><span class="ja">筑波大学にて博士（環境学）取得</span></h3>
+          <p><span class="en">Bridges fundamental and applied science across remote sensing, geography, meteorology and informatics.</span><span class="ja">リモートセンシング・地理学・気象学・情報学を横断する学際的研究を確立。</span></p>
+        </div>
+      </li>
+      <li>
+        <div class="yr small">JIRCAS<br>NARO</div>
+        <div class="body">
+          <span class="coord">36.05°N 140.08°E</span>
+          <h3><span class="en">Research for global challenges</span><span class="ja">地球規模課題への挑戦</span></h3>
+          <p><span class="en">Climate change, land use and resource management at Japan’s national agricultural research institutes.</span><span class="ja">国際農研・農研機構にて、気候変動・土地利用・資源管理の研究に従事。</span></p>
+        </div>
+      </li>
+      <li>
+        <div class="yr">2026</div>
+        <div class="body">
+          <span class="coord">ISBN 978-4-7634-2231-6</span>
+          <h3><span class="en"><i>In Search of the Phantom Grasslands</i> published</span><span class="ja">『幻の大草原を追って』刊行</span></h3>
+          <p><span class="en">Kadensha, May 2026.</span><span class="ja">花伝社、2026年5月。</span></p>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section id="fields">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div>
+        <div class="eyebrow"><span class="en">Research</span><span class="ja">研究領域</span></div>
+        <h2><span class="en">Reading the Earth as one system</span><span class="ja">地球をひとつのシステムとして読む</span></h2>
+      </div>
+    </div>
+    <div class="fields reveal">
+      <div class="field">
+        <span class="mono">EO · NDVI · Land cover</span>
+        <h3><span class="en">Remote sensing</span><span class="ja">リモートセンシング</span></h3>
+        <p><span class="en">Satellite observation of vegetation, land cover and change over time.</span><span class="ja">衛星観測による植生・土地被覆とその時系列変化の解析。</span></p>
+      </div>
+      <div class="field">
+        <span class="mono">GIS · Land systems</span>
+        <h3><span class="en">Geography</span><span class="ja">地理学</span></h3>
+        <p><span class="en">Geospatial and statistical analysis of land use and resources.</span><span class="ja">土地利用と資源の地理空間・統計解析。</span></p>
+      </div>
+      <div class="field">
+        <span class="mono">Climate · Weather</span>
+        <h3><span class="en">Meteorology</span><span class="ja">気象学</span></h3>
+        <p><span class="en">Climate variability and its effect on agriculture and food security.</span><span class="ja">気候変動と、それが農業・食料安全保障に与える影響。</span></p>
+      </div>
+      <div class="field">
+        <span class="mono">AI · Reproducible workflows</span>
+        <h3><span class="en">Informatics</span><span class="ja">情報学</span></h3>
+        <p><span class="en">Data-driven models and reproducible research pipelines.</span><span class="ja">データ駆動型モデルと再現可能な研究ワークフロー。</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="book">
+  <div class="wrap book">
+    <div class="cover reveal">
+      <a href="https://www.kadensha.net/book/b10168392.html" target="_blank" rel="noopener">
+        <img src="images/book-cover.jpg" alt="Book cover: 幻の大草原を追って (In Search of the Phantom Grasslands)" loading="lazy" width="973" height="1616">
+      </a>
+    </div>
+    <div class="book-text reveal">
+      <div class="eyebrow"><span class="en">New book · May 2026</span><span class="ja">新刊 · 2026年5月</span></div>
+      <h3 lang="ja">幻の大草原を追って</h3>
+      <p class="sub" lang="ja">内モンゴルから日本へ、緑を取り戻すための留学記</p>
+      <p class="en-title">IN SEARCH OF THE PHANTOM GRASSLANDS</p>
+      <p class="sub">From Inner Mongolia to Japan: a study-abroad memoir of restoring the green</p>
+      <dl class="meta">
+        <dt><span class="en">Publisher</span><span class="ja">出版社</span></dt><dd><span class="en">Kadensha</span><span class="ja">花伝社</span></dd>
+        <dt><span class="en">Published</span><span class="ja">刊行</span></dt><dd><span class="en">May 2026</span><span class="ja">2026年5月</span></dd>
+        <dt>ISBN</dt><dd class="mono" style="font-size:14px;text-transform:none">978-4-7634-2231-6</dd>
+      </dl>
+      <div class="cta" style="margin-top:0">
+        <a class="btn primary" href="https://www.kadensha.net/book/b10168392.html" target="_blank" rel="noopener"><span class="en">Publisher</span><span class="ja">出版社ページ</span> <span class="arr">↗</span></a>
+        <a class="btn" href="https://www.kinokuniya.co.jp/f/dsg-01-9784763422316" target="_blank" rel="noopener">Kinokuniya <span class="arr">↗</span></a>
+        <a class="btn" href="https://www.maruzenjunkudo.co.jp/products/9784763422316" target="_blank" rel="noopener">Maruzen Junkudo <span class="arr">↗</span></a>
+        <a class="btn" href="https://ndlsearch.ndl.go.jp/en/books/R100000002-I034710275" target="_blank" rel="noopener">NDL <span class="arr">↗</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="identity">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div>
+        <div class="eyebrow"><span class="en">Global research identity</span><span class="ja">国際典拠・研究者ID</span></div>
+        <h2><span class="en">Indexed across the world’s knowledge systems</span><span class="ja">世界の知識体系に登録された研究者</span></h2>
+      </div>
+      <span class="coord">10 REGISTRIES</span>
+    </div>
+    <div class="registry reveal">
+      <a class="reg-row" href="https://orcid.org/0000-0002-8544-3868" target="_blank" rel="noopener"><span class="code">ORCID</span><span class="name">Open Researcher and Contributor ID</span><span class="id">0000-0002-8544-3868</span><span class="go">↗</span></a>
+      <a class="reg-row" href="https://www.wikidata.org/wiki/Q135964663" target="_blank" rel="noopener"><span class="code">WIKI</span><span class="name">Wikidata</span><span class="id">Q135964663</span><span class="go">↗</span></a>
+      <a class="reg-row" href="https://viaf.org/en/viaf/7880176726014124980005" target="_blank" rel="noopener"><span class="code">VIAF</span><span class="name">Virtual International Authority File</span><span class="id">7880176726014124980005</span><span class="go">↗</span></a>
+      <a class="reg-row" href="https://isni.org/isni/0000000528391004" target="_blank" rel="noopener"><span class="code">ISNI</span><span class="name">International Standard Name Identifier</span><span class="id">0000 0005 2839 1004</span><span class="go">↗</span></a>
+      <a class="reg-row" href="http://id.loc.gov/authorities/names/no2025114226" target="_blank" rel="noopener"><span class="code">LCNAF</span><span class="name">Library of Congress Name Authority (US)</span><span class="id">no2025114226</span><span class="go">↗</span></a>
+      <a class="reg-row" href="https://id.worldcat.org/fast/02066349" target="_blank" rel="noopener"><span class="code">FAST</span><span class="name">OCLC FAST Subject Headings</span><span class="id">02066349</span><span class="go">↗</span></a>
+      <a class="reg-row" href="https://explore.gnd.network/gnd/1379562554" target="_blank" rel="noopener"><span class="code">GND</span><span class="name">Gemeinsame Normdatei (Germany)</span><span class="id">1379562554</span><span class="go">↗</span></a>
+      <a class="reg-row" href="https://www.treccani.it/vocabolario/neo-chaogejilatu_(Neologismi)/" target="_blank" rel="noopener"><span class="code">TRECCANI</span><span class="name">Treccani Neologismi (Italy)</span><span class="id">neo-chaogejilatu</span><span class="go">↗</span></a>
+      <a class="reg-row" href="https://ndlsearch.ndl.go.jp/en/books/R100000002-I034710275" target="_blank" rel="noopener"><span class="code">NDL</span><span class="name">National Diet Library (Japan)</span><span class="id">R100000002-I034710275</span><span class="go">↗</span></a>
+      <a class="reg-row" href="https://www.nid-library.com/Home/Collections/16" target="_blank" rel="noopener"><span class="code">NIDL</span><span class="name">NID Library Collections</span><span class="id">Collection 16</span><span class="go">↗</span></a>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap reveal">
+    <div class="eyebrow"><span class="en">Contact</span><span class="ja">お問い合わせ</span></div>
+    <a class="big" href="https://www.chaogejilatu.com" target="_blank" rel="noopener">chaogejilatu.com ↗</a>
+    <p>
+      <span class="en">For lectures, research collaboration, media and international projects, please use the contact channels on the official site.</span>
+      <span class="ja">講演・共同研究・メディア・国際プロジェクトのご相談は、公式サイトの連絡窓口よりお寄せください。</span>
+    </p>
+    <div class="cta">
+      <a class="btn" href="https://chaogejilatu.wordpress.com" target="_blank" rel="noopener"><span class="en">Journal</span><span class="ja">ブログ</span> <span class="arr">↗</span></a>
+      <a class="btn" href="https://orcid.org/0000-0002-8544-3868" target="_blank" rel="noopener">ORCID <span class="arr">↗</span></a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap mono">
+    <span>© <span id="yr">2026</span> CHAOGEJILATU</span>
+    <span><span class="en">Science for people and planet</span><span class="ja">人と地球のための科学</span></span>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var root = document.documentElement;
+  root.classList.add('js');
+
+  /* ---- language ---- */
+  function setLang(l) {
+    root.setAttribute('data-lang', l);
+    root.lang = l;
+    document.querySelectorAll('[data-set-lang]').forEach(function (b) {
+      b.setAttribute('aria-pressed', String(b.getAttribute('data-set-lang') === l));
+    });
+    try { localStorage.setItem('cg-lang', l); } catch (e) {}
+  }
+  var saved = null;
+  try { saved = localStorage.getItem('cg-lang'); } catch (e) {}
+  setLang(saved || ((navigator.language || '').toLowerCase().indexOf('ja') === 0 ? 'ja' : 'en'));
+  document.querySelectorAll('[data-set-lang]').forEach(function (b) {
+    b.addEventListener('click', function () { setLang(b.getAttribute('data-set-lang')); });
+  });
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ---- reveal: only elements below the first screen start offset ---- */
+  if ('IntersectionObserver' in window && !reduce) {
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.remove('pending'); io.unobserve(e.target); } });
+    }, { rootMargin: '0px 0px -8% 0px' });
+    document.querySelectorAll('.reveal').forEach(function (el) {
+      if (el.getBoundingClientRect().top > window.innerHeight) { el.classList.add('pending'); io.observe(el); }
+    });
+  }
+
+  /* ---- hero: satellite swath scanning steppe contours ---- */
+  var cv = document.getElementById('swath');
+  var ctx = cv.getContext('2d');
+  var W = 0, H = 0, dpr = 1, cell = 12;
+
+  // value noise
+  var P = new Uint8Array(512);
+  (function () { var p = []; for (var i = 0; i < 256; i++) p[i] = i;
+    var s = 1980; function rnd() { s = (s * 16807) % 2147483647; return s / 2147483647; }
+    for (i = 255; i > 0; i--) { var j = Math.floor(rnd() * (i + 1)); var t = p[i]; p[i] = p[j]; p[j] = t; }
+    for (i = 0; i < 512; i++) P[i] = p[i & 255]; })();
+  function h(x, y) { return P[(P[x & 255] + y) & 511] / 255; }
+  function sm(t) { return t * t * (3 - 2 * t); }
+  function noise(x, y) {
+    var xi = Math.floor(x), yi = Math.floor(y), xf = x - xi, yf = y - yi;
+    var a = h(xi, yi), b = h(xi + 1, yi), c = h(xi, yi + 1), d = h(xi + 1, yi + 1);
+    var u = sm(xf), v = sm(yf);
+    return a + (b - a) * u + (c - a) * v + (a - b - c + d) * u * v;
+  }
+  function field(x, y, t) {
+    return noise(x * .011 + t * .015, y * .013) * .6 + noise(x * .027 - t * .01, y * .024 + 7) * .3 + noise(x * .06, y * .06 + t * .02) * .1;
+  }
+
+  var cols = 0, rows = 0, F;
+  function resize() {
+    var r = cv.getBoundingClientRect();
+    dpr = Math.min(window.devicePixelRatio || 1, 2);
+    W = r.width; H = r.height;
+    cv.width = Math.round(W * dpr); cv.height = Math.round(H * dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    cell = W < 640 ? 10 : 12;
+    cols = Math.ceil(W / cell) + 1; rows = Math.ceil(H / cell) + 1;
+    F = new Float32Array(cols * rows);
+  }
+
+  function css(name) { return getComputedStyle(root).getPropertyValue(name).trim(); }
+  // NDVI-like ramp: bare soil -> dry grass -> green steppe
+  function ramp(v) {
+    var stops = [[0, [150, 110, 70]], [.45, [205, 180, 100]], [.62, [120, 170, 90]], [1, [40, 130, 80]]];
+    for (var i = 1; i < stops.length; i++) if (v <= stops[i][0]) {
+      var a = stops[i - 1], b = stops[i], k = (v - a[0]) / (b[0] - a[0]);
+      return [a[1][0] + (b[1][0] - a[1][0]) * k, a[1][1] + (b[1][1] - a[1][1]) * k, a[1][2] + (b[1][2] - a[1][2]) * k];
+    }
+    return stops[stops.length - 1][1];
+  }
+
+  var hudL = document.getElementById('hud-l');
+  function draw(t) {
+    var i, j, x, y;
+    for (j = 0; j < rows; j++) for (i = 0; i < cols; i++) F[j * cols + i] = field(i * cell, j * cell, t);
+    ctx.clearRect(0, 0, W, H);
+
+    var azure = css('--azure') || '#5AAEEA';
+    var light = (css('color-scheme') === 'light');
+
+    // swath band position
+    var period = 14, ph = (t % period) / period;
+    var sw = Math.max(120, W * .2), sx = -sw + ph * (W + sw * 2);
+
+    // false-colour pixels inside the swath
+    var i0 = Math.max(0, Math.floor(sx / cell)), i1 = Math.min(cols - 1, Math.ceil((sx + sw) / cell));
+    for (j = 0; j < rows; j++) for (i = i0; i <= i1; i++) {
+      var v = F[j * cols + i], c = ramp(Math.min(1, Math.max(0, (v - .2) / .6)));
+      var edge = Math.min(1, ((i * cell) - sx) / (sw * .3), (sx + sw - i * cell) / (sw * .3));
+      ctx.fillStyle = 'rgba(' + (c[0] | 0) + ',' + (c[1] | 0) + ',' + (c[2] | 0) + ',' + (Math.max(0, edge) * (light ? .28 : .22)).toFixed(3) + ')';
+      ctx.fillRect(i * cell, j * cell, cell - 1, cell - 1);
+    }
+
+    // contours via marching squares
+    ctx.lineWidth = 1;
+    for (var L = 1; L < 9; L++) {
+      var lv = .22 + L * .065;
+      ctx.strokeStyle = azure; ctx.globalAlpha = (L % 3 === 0) ? .34 : .14;
+      ctx.beginPath();
+      for (j = 0; j < rows - 1; j++) for (i = 0; i < cols - 1; i++) {
+        var a = F[j * cols + i], b = F[j * cols + i + 1], c2 = F[(j + 1) * cols + i + 1], d = F[(j + 1) * cols + i];
+        var k = (a > lv ? 8 : 0) | (b > lv ? 4 : 0) | (c2 > lv ? 2 : 0) | (d > lv ? 1 : 0);
+        if (k === 0 || k === 15) continue;
+        x = i * cell; y = j * cell;
+        var top = [x + cell * (lv - a) / (b - a), y], right = [x + cell, y + cell * (lv - b) / (c2 - b)],
+            bot = [x + cell * (lv - d) / (c2 - d), y + cell], left = [x, y + cell * (lv - a) / (d - a)];
+        var segs = { 1: [left, bot], 2: [bot, right], 3: [left, right], 4: [top, right], 5: [left, top, bot, right], 6: [top, bot], 7: [left, top],
+                     8: [left, top], 9: [top, bot], 10: [left, bot, top, right], 11: [top, right], 12: [left, right], 13: [bot, right], 14: [left, bot] }[k];
+        for (var s = 0; s < segs.length; s += 2) { ctx.moveTo(segs[s][0], segs[s][1]); ctx.lineTo(segs[s + 1][0], segs[s + 1][1]); }
+      }
+      ctx.stroke();
+    }
+    ctx.globalAlpha = 1;
+
+    // swath edges + scan line
+    ctx.strokeStyle = azure; ctx.globalAlpha = .55; ctx.setLineDash([2, 6]);
+    ctx.beginPath(); ctx.moveTo(sx, 0); ctx.lineTo(sx, H); ctx.moveTo(sx + sw, 0); ctx.lineTo(sx + sw, H); ctx.stroke();
+    ctx.setLineDash([]); ctx.globalAlpha = .9; ctx.lineWidth = 1.5;
+    ctx.beginPath(); ctx.moveTo(sx + sw, 0); ctx.lineTo(sx + sw, H); ctx.stroke();
+    ctx.globalAlpha = 1;
+
+    // satellite on orbit arc above the swath
+    var cx = sx + sw / 2, oy = 54 + Math.sin(ph * Math.PI) * -10;
+    ctx.fillStyle = azure;
+    ctx.beginPath(); ctx.arc(cx, oy, 3.5, 0, Math.PI * 2); ctx.fill();
+    ctx.globalAlpha = .25; ctx.beginPath(); ctx.arc(cx, oy, 10 + 6 * Math.sin(t * 3), 0, Math.PI * 2); ctx.fill(); ctx.globalAlpha = 1;
+    ctx.fillRect(cx - 12, oy - .75, 8, 1.5); ctx.fillRect(cx + 4, oy - .75, 8, 1.5);
+
+    // live coordinate under the scan line (Horqin steppe frame)
+    if (hudL) {
+      var lon = 120.5 + (Math.max(0, Math.min(W, sx + sw)) / W) * 3.5;
+      hudL.textContent = 'SCENE 43.65°N ' + lon.toFixed(2) + '°E · HORQIN STEPPE';
+    }
+  }
+
+  var visible = true, last = 0, t0 = performance.now();
+  resize();
+  draw(3.2);
+  if ('IntersectionObserver' in window) new IntersectionObserver(function (es) { visible = es[0].isIntersecting; }).observe(cv);
+  window.addEventListener('resize', function () { resize(); draw((performance.now() - t0) / 1000 + 3.2); });
+  if (!reduce) {
+    (function loop(now) {
+      requestAnimationFrame(loop);
+      if (!visible || document.hidden || now - last < 40) return;
+      last = now; draw((now - t0) / 1000 + 3.2);
+    })(performance.now());
+  }
+})();
+</script>
+</body>
+</html>
